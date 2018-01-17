@@ -3,7 +3,7 @@
 
 ## Docker image and terraform installation
 
-> This guide was inspired on this awesome [article](https://medium.com/oracledevs/containerized-terraform-for-oci-provider-2deb917783fa) created by Lucas Gomes. This explains how to create and build your own docker image. I have used the steps from this article to create my docker image and added a few examples of terraform scripts here. 
+> This guide was inspired on this awesome [article](https://medium.com/oracledevs/containerized-terraform-for-oci-provider-2deb917783fa) created by Lucas Gomes. This explains how to create and build your own docker image. I have used the steps from this article to create my docker image and added a few examples of terraform scripts. 
 
 
 ----
