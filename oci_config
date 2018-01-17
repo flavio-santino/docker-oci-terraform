@@ -1,0 +1,7 @@
+[DEFAULT]
+user=<ocid-user>
+fingerprint=42:71:aa:bb:ee:a8:b9:7e:79:5c:dd:c8:e4:8e:89:18
+key_file=<path-to-oci-api-key>
+pass_phrase=<phassprase>
+tenancy=<oci-id-tenancy>
+region=<region>
