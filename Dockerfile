@@ -1,8 +1,12 @@
 FROM oraclelinux:7-slim
 
-###############################################
-#   Install Oracle Terraform and OCI Provider #
-###############################################
+### Install Oracle OCI CLI ###
+
+RUN yum -y install gcc libffi-devel python-devel openssl-devel python-setuptools
+RUN easy_install pip
+RUN pip install oci-cli
+
+### Install Oracle Terraform and OCI Provider ###
 
 ARG TERRAFORM_VERSION=0.11.2-1.el7
 ARG OCI_PROVIDER_VERSION=2.0.6-1.el7
