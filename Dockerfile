@@ -1,6 +1,6 @@
 FROM oraclelinux:7-slim
 
-### Install Oracle OCI CLI ###
+### Install Oracle OCI CLI - version 2.4.15 ###
 
 RUN yum -y install gcc libffi-devel python-devel openssl-devel python-setuptools
 RUN easy_install pip
