@@ -1,5 +1,5 @@
 /*
- * This example demonstrates how to spin up an Oracle Linux instance and get its public ip.
+ * This example demonstrates how to spin up two Oracle Linux instances and get its public ip.
  */
 
 variable "tenancy_ocid" {}
@@ -78,7 +78,7 @@ resource "oci_core_route_table" "routetable1" {
 
 /* Instances */
 
-resource "oci_core_instance" "instance" {
+resource "oci_core_instance" "instances" {
   count               = "2"
   availability_domain = "${lookup(data.oci_identity_availability_domains.ADs.availability_domains[0],"name")}"
   compartment_id      = "${var.compartment_ocid}"
@@ -93,5 +93,5 @@ resource "oci_core_instance" "instance" {
 }
 
 output "InstancePublicIP" {
-  value = ["${oci_core_instance.instance.*.public_ip}"]
+  value = ["${oci_core_instance.instances.*.public_ip}"]
 }
