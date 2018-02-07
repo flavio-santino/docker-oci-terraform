@@ -26,7 +26,7 @@ I have used the steps from this article to create a docker image with terraform 
 3. Install git from this [link](https://git-scm.com/download/mac)
 4. Open terminal and clone my repo with this command:
 
-   `git clone git@github.com:flavio-santino/docker-oci-terraform.git`
+   `git clone https://github.com/flavio-santino/docker-oci-terraform.git`
 5. Now you are ready to pull the docker image with this command: 
 
    `docker pull flaviosantino/docker-oci-terraform`
