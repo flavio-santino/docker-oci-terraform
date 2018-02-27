@@ -36,5 +36,6 @@ I have used the steps from this article to create a docker image with terraform 
 
 ----
 ## changelog
-* 16-Jan-2018 first version
+* 27-Feb-2019 - Terraform oci provider 2.0.7-1.el7
 * 30-Jan-2018 Added more examples and oci config file.
+* 16-Jan-2018 first version
