@@ -30,7 +30,7 @@ I have used the steps from this article to create a docker image with terraform 
 5. Now you are ready to pull the docker image with this command: 
 
    `docker pull flaviosantino/docker-oci-terraform`
-6. Now you can access your docker image along with your terraform examoles by executing:
+6. Now you can access your docker image along with your terraform examples by executing:
 
    `docker run --interactive --tty --rm --volume "$PWD":/data flaviosantino/docker-oci-terraform "$@"`
 
