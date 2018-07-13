@@ -6,19 +6,6 @@ I have used the steps from this article to create a docker image with terraform 
 
 ----
 ## Installation
-### Windows 10
-1. Download docker for Windows 10. You can download installers from this [link](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
-2. Double-click **Docker for Windows Installer.exe** to run the installer and follow the instructions.
-3. Install Git-bash from this [link](https://github.com/git-for-windows/git/releases/download/v2.16.1.windows.1/Git-2.16.1-64-bit.exe)
-4. Open gitbash and clone my repo with this command:
-
-   `git clone https://github.com/flavio-santino/docker-oci-terraform.git`
-5. Now you are ready to pull the docker image with this command:
-
-   `docker pull flaviosantino/docker-oci-terraform`
-6. Now you can access your docker image along with your terraform examoles by executing:
-
-   `docker run --interactive --tty --rm --volume "$PWD":/data flaviosantino/docker-oci-terraform "$@"`
 
 ### MacOSX
 1. Download docker for MacOSX. You can download installers from this [link](https://download.docker.com/mac/stable/Docker.dmg)
@@ -36,6 +23,7 @@ I have used the steps from this article to create a docker image with terraform 
 
 ----
 ## changelog
+* 07-Jul-2018 Updated oci provider to 2.1.13-1.el7
 * 04-May-2018 Updated Terraform version to 0.11.7-1 and oci provider version to 2.1.6-1
 * 27-Mar-2018 Updated Terraform version to 0.11.5-1 and oci provider version to 2.1.2-1
 * 14-Mar-2018 Updated oci provider to 2.1.0-1.el7
