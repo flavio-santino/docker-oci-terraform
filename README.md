@@ -23,6 +23,7 @@ I have used the steps from this article to create a docker image with terraform 
 
 ----
 ## changelog
+* 09-Sep-2018 Updated Terraform version to 0.11.8-1.el7 and oci provider to 2.2.1-1.el7
 * 07-Jul-2018 Updated oci provider to 2.1.13-1.el7
 * 04-May-2018 Updated Terraform version to 0.11.7-1 and oci provider version to 2.1.6-1
 * 27-Mar-2018 Updated Terraform version to 0.11.5-1 and oci provider version to 2.1.2-1
