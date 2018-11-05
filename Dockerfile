@@ -2,6 +2,7 @@ FROM oraclelinux:7-slim
 
 ### Install latest Oracle OCI CLI ###
 
+RUN yum-config-manager --enable ol7_developer
 RUN yum -y install gcc libffi-devel python-devel openssl-devel python-setuptools
 RUN easy_install pip
 RUN pip install oci-cli
